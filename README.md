@@ -333,8 +333,6 @@ tokenizer.padding_side = "right"
 - ```tokenizer.padding_side = "right"```: 
    - This specifies that the padding will occur on the ``right side`` of the input sequence. Padding on the right is often preferred for autoregressive models (like LLaMA) since the model can focus on the left (the non-padded portion) and generate outputs without being distracted by the padded tokens.
 
----
-
 #### Trainer Setup:
 
 ```python
